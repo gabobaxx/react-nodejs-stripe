@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# PAYMENTS APP :rocket:
+
+This is a Payments app that was build with react in the frontend and nodejs in the backend using stripe api.
+## Screenshots :camera:
+
+![principal](docs/principal.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
