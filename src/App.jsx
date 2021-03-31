@@ -9,7 +9,7 @@ import { useState } from 'react';
 
 // Make sure to call `loadStripe` outside of a component’s render to avoid
 // recreating the `Stripe` object on every render.
-const stripePromise = loadStripe('pk_test_mUIv63VfAiEs1bOXz6Dv1ret00Ynls2osB');
+const stripePromise = loadStripe(PUBLIC_KEY);
 
 const CheckoutForm = () => {
 	const [loading, setLoading] = useState(false);
